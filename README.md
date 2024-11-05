@@ -86,3 +86,22 @@ To access the OpenAI API for generating questions:
 - Add a line to the `.env` file as follows:
   ```plaintext
   OPENAI_API_KEY=your-api-key-here
+
+  ## Setup Instructions
+
+### Database Setup
+
+- Install PostgreSQL and create a new database.
+- Run the `setup.sql` script to set up the necessary tables.
+
+### Install Redis
+
+- Follow the installation guide for [Redis](https://redis.io/download) and start the Redis server on your machine.
+
+### Install Dependencies
+
+To install the required Python packages, run:
+
+```bash
+pip install redis psycopg2-binary openai python-dotenv
+
