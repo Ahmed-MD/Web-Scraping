@@ -32,7 +32,7 @@ const App: React.FC = () => {
       {error && <p className="text-red-500">{error}</p>}
       {questions.length > 0 && (
         <div>
-          <h2 className="text-xl font-bold mb-2">Questions:</h2>
+          <h2 className="text-xl font-bold mb-2">Classification Questions:</h2>
           {questions.map((question, index) => (
             <div key={index} className="mb-4">
               <p className="font-semibold">{question.text}</p>
