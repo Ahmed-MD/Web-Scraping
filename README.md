@@ -87,7 +87,7 @@ To access the OpenAI API for generating questions:
   ```plaintext
   OPENAI_API_KEY=your-api-key-here
 
-  ## Setup Instructions
+## Setup Instructions
 
 ### Database Setup
 
